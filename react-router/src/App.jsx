@@ -1,4 +1,6 @@
 import './App.css'
+import MainSection from './components/MainSection'
+import Navbar from './components/Navbar'
 
 const App = () => {
   
@@ -6,10 +8,9 @@ const App = () => {
   return (
     <>
       <div id="container">
-      
-      <div id="navbar">{/* navigation here */}</div>
-      <div id="main-section">{/* routes here */}</div>
-    </div>
+        <Navbar />
+        <MainSection />
+      </div>
     </>
   )
 }
